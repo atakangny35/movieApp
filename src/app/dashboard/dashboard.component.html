@@ -1,0 +1,19 @@
+<div class="card my-2" *ngFor="let movie of movies">
+
+   <div class="row">
+    <div class="col-md-3">
+        <img src="https://ted-ielts.com/wp-content/uploads/2019/04/movies-1_fcslqf.jpg" alt="card image" class="card-img">
+    </div>
+    <div class="col-md-9">
+    <div class="card-body">
+        <h5 class="card-title">
+            <a href="">{{movie.name}}</a>
+        </h5>
+            <p class="card-text">
+                {{movie.description}}
+            </p>
+    </div>
+    </div>
+   </div>
+
+</div>
